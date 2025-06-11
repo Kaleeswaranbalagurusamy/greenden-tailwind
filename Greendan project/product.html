@@ -1,0 +1,136 @@
+<!-- Product page -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+    </html><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+<body>
+    <!-- Responsive navbar -->
+     <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl">Greenden</h1>
+
+        <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="30" height="30" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 md:hidden">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+</svg>
+
+
+
+
+            <ul class="flex gap-5 text-gray-600 hidden md:flex">
+                <li>
+                    <a class="hover:underline hover:text-black" href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a class="hover:underline hover:text-black" href="product.html">Products</a>
+                </li>
+
+                <li>
+                    <a class="hover:underline hover:text-black" href="contact.html">Contact</a>
+                </li>
+
+            </ul>
+     </nav>  
+
+      <!-- Product Page -->
+       <section class="p-4 text-center">
+        <h1 class="font-bold mt-5 text-3xl">Our Products</h1>
+        <input id="search" type="text" placeholder="Search for a product" class="border border-black p-2 m-3" style="width: 70%">
+
+        <div id="productcontainer" class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-5">
+
+          <div>
+            <img src="./Images/Best seller -1.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+            <h1>Rose plant</h1>
+            <p>20$</p>
+          </div>
+
+           <div>
+            <img src="./Images/Best seller -2.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+            <h1>Lily plant</h1>
+            <p>15$</p>
+          </div>
+
+           <div>
+            <img src="./Images/Best seller -3.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+            <h1>Snake plant</h1>
+            <p>10$</p>
+          </div>
+
+           <div>
+            <img src="./Images/Best seller -4.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+            <h1>Spider plant</h1>
+            <p>10$</p>
+          </div>
+
+           <div>
+            <img src="./Images/Best seller -1.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+            <h1>Rose plant</h1>
+            <p>20$</p>
+          </div>
+
+           <div>
+            <img src="./Images/Best seller -2.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+            <h1>Lily plant</h1>
+            <p>15$</p>
+          </div>
+
+           <div>
+            <img src="./Images/Best seller -3.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+            <h1>Snake plant</h1>
+            <p>10$</p>
+          </div>
+
+           <div>
+            <img src="./Images/Best seller -4.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+            <h1>Spider plant</h1>
+            <p>10$</p>
+          </div>
+
+
+        </div>
+
+       </section>
+
+       <!-- side Navbar  -->
+
+     <section id="sidenav" class="bg-green-100 fixed top-0  z-20 transition-all duration-1000 " style="width: 50%;height:100vh; right: -50%;">
+        
+          <div class="text-right p-5">
+            <p id="closenav" class="text-2xl inline cursor-pointer " >X</p>
+          </div>
+      
+      <ul class="flex flex-col gap-10 items-center text-gray-600 md:flex">
+                <li>
+                    <a class="hover:underline hover:text-black" href="">Home</a>
+                </li>
+
+                <li>
+                    <a class="hover:underline hover:text-black" href="product.html">Products</a>
+                </li>
+
+                <li>
+                    <a class="hover:underline hover:text-black" href="contact.html">Contact</a>
+                </li>
+
+            </ul>
+
+     </section>
+
+        <!-- footer -->
+
+        <section class="bg-green-100 p-10 flex flex-col gap-5">
+          <h1 class="font-bold text-3xl">Greenden</h1>
+          <p>Nature is god's Gift Don't spoil it</p>
+          <p>@2024 greenday.com</p>
+        </section>
+
+        <script src="product.js">
+
+        </script>
+
+</body>
